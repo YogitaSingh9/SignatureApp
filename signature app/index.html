@@ -81,7 +81,7 @@
         const retrieveButton=document.getElementById("retrieveButton");
         const ctx = canvas.getContext('2d');
         colorpicker.addEventListener('change',(e)=>{
-            ctx.StrokeStyle=e.target.value;
+            ctx.strokeStyle=e.target.value;
             ctx.fillStyle=e.taget.value;
         })
         canvas.addEventListener('mousedown', (e)=>{
